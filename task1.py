@@ -13,8 +13,8 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # Load data
-df_train = pd.read_excel('/content/drive/MyDrive/internship_2024/ResoluteAISoftwarePrivateLimited(DS-Ml_withpython)/Data /Task1and2/train.xlsx')
-df_test = pd.read_excel('/content/drive/MyDrive/internship_2024/ResoluteAISoftwarePrivateLimited(DS-Ml_withpython)/Data /Task1and2/test.xlsx')
+df_train = pd.read_excel('train.xlsx')
+df_test = pd.read_excel('test.xlsx')
 
 # Extract features from train data and standardize the data
 features_train = df_train.drop(['target'], axis=1)
